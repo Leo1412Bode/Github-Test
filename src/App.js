@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
+  const leo = 4;
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <h1>loe world</h1>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

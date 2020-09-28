@@ -1,0 +1,24 @@
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 870bced..0f34ad4 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -1,12 +1,14 @@[m
+[31m-import React from 'react';[m
+[31m-import logo from './logo.svg';[m
+[31m-import './App.css';[m
+[32m+[m[32mimport React from "react";[m
+[32m+[m[32mimport logo from "./logo.svg";[m
+[32m+[m[32mimport "./App.css";[m
+ import "@fortawesome/fontawesome-free/css/all.min.css";[m
+ [m
+ function App() {[m
+[32m+[m[32m  const leo = 4;[m
+   return ([m
+     <div className="App">[m
+       <h1>Hello world</h1>[m
+[32m+[m
+       <header className="App-header">[m
+         <img src={logo} className="App-logo" alt="logo" />[m
+         <p>[m
