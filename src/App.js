@@ -9,6 +9,11 @@ function App() {
     <div className="App">
       <h1>loe world</h1>
 
+      {/* esto es del branch test-App */}
+      <h2>Esto es del master branch test-App</h2>
+
+      {/* esto es del branch test-App */}
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
